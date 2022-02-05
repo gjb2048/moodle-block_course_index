@@ -60,6 +60,9 @@ class block_course_index extends block_base {
      * @return string Markup.
      */
     public function get_content() {
+        if ($this->page->theme->name == 'boost') {
+            return '';
+        }
         if ($this->content !== null) {
             return $this->content;
         }
