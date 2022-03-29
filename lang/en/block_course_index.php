@@ -25,3 +25,4 @@
 
 $string['pluginname'] = 'Course Index';
 $string['course_index:addinstance'] = 'Add a new Course Index block';
+$string['course_index:addmyinstance'] = 'Add a new Course Index block';

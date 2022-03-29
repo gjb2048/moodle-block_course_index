@@ -25,8 +25,8 @@
 
 defined('MOODLE_INTERNAL') || die;
 
-$plugin->release = '4.0.0.1';
-$plugin->version   = 2022011900;
+$plugin->release = '4.0.0.2';
+$plugin->version   = 2022011901;
 $plugin->requires  = 2022011800.00; // 4.0dev+ (Build: 20220118).
 $plugin->maturity = MATURITY_ALPHA;
 $plugin->component = 'block_course_index';
