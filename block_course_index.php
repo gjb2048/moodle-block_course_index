@@ -38,7 +38,12 @@ class block_course_index extends block_base {
         $this->title = get_string('pluginname', 'block_course_index');
     }
 
-    function applicable_formats() {
+    /**
+     * Defines where the block can be added.
+     *
+     * @return array
+     */
+    public function applicable_formats() {
         return array('course' => true, 'mod' => true);
     }
 
