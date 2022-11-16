@@ -2,7 +2,8 @@ Version Information
 ===================
 Version 4.0.0.2
 ---------------------------
-  1. Fix missing 'addmyinstance' capability.
+  1. Fix 'addmyinstance' capability not needed.
+  2. State where the block can be added.
 
 Version 4.0.0.1
 ---------------------------

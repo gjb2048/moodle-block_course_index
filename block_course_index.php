@@ -24,6 +24,8 @@
  */
 defined('MOODLE_INTERNAL') || die;
 
+require_once($CFG->dirroot.'/course/lib.php');
+
 /**
  * Course Index block class.
  */
@@ -34,6 +36,10 @@ class block_course_index extends block_base {
      */
     public function init() {
         $this->title = get_string('pluginname', 'block_course_index');
+    }
+
+    function applicable_formats() {
+        return array('course' => true, 'mod' => true);
     }
 
     /**
